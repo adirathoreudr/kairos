@@ -1,4 +1,6 @@
-# Candor
+# Kairos
+
+Kairos is a codename. The product this take-home was built for is from a stealth startup, so its real name stays confidential.
 
 A memory over two weeks of Alex Rivera's work: meeting transcripts, dictation, Slack, email, calendar, Codex and ChatGPT. Ask it a question "as of" any moment and it answers from the records that existed then, says who said what (and whether they said it themselves or someone reported it), cites the exact segment or message, and says "I don't know" when the data doesn't have it. On top of the memory sits a small assistant that turns typed or spoken commands into actions, as a dry run.
 
@@ -155,7 +157,7 @@ To use another provider, set `LLM_BASE_URL`, `LLM_API_KEY` and `LLM_MODEL` in `.
 ## Reproducing the outputs
 
 ```bash
-git clone https://github.com/adirathoreudr/candor && cd candor
+git clone https://github.com/adirathoreudr/kairos && cd kairos
 make all     # rewrites outputs/train/*.jsonl from the committed LLM cache, no key needed
 git diff --stat outputs/   # empty: identical to the committed files
 make eval && make eval-actions
