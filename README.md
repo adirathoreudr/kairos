@@ -182,4 +182,4 @@ PROGRESS.md       eval log per commit, failures, what didn't work
 
 ## Submission
 
-The submitted commit is tagged `submission`; its full hash is in the reply email. Nothing changes after it.
+The submitted commit is tagged `submission`
